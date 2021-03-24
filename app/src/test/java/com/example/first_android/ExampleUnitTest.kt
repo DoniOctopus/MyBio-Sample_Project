@@ -1,4 +1,4 @@
-package com.enigmacamp.mybiodata
+package com.example.first_android
 
 import org.junit.Test
 
