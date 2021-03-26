@@ -1,15 +1,14 @@
 package com.example.first_android.screens
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.Navigation
 import com.example.first_android.R
-import com.example.first_android.film.Film
-import com.example.first_android.film.FilmViewModel
+import com.example.first_android.screens.film.FilmViewModel
 import kotlinx.android.synthetic.main.fragment_create_film.*
 
 class CreateFilmFragment : Fragment() {
@@ -32,11 +31,11 @@ class CreateFilmFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         submitFilm.setOnClickListener {
-            val newFilm = Film(film_title = filmTitleTextInput.text.toString()
-                ,film_duration = filmDurationTextInput.text.toString()
-                ,film_image_url = filmImageURLtextInput.text.toString()
-                ,film_synopsis = filmSynopsisTextInput.text.toString())
-            filmViewModel.createFilm(newFilm)
+//            val newFilm = Film(film_title = filmTitleTextInput.text.toString()
+//                ,film_duration = filmDurationTextInput.text.toString()
+//                ,film_image_url = filmImageURLtextInput.text.toString()
+//                ,film_synopsis = filmSynopsisTextInput.text.toString())
+//            filmViewModel.createFilm(newFilm)
             Navigation.findNavController(view).navigate(R.id.action_createFilmFragment_pop)
         }
     }

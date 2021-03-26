@@ -2,13 +2,13 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/showFood"
+        android:id="@+id/showFilm"
         android:enabled="true"
         android:icon="@drawable/ic_baseline_slideshow_24"
-        android:title="@string/show_data_food" />
+        android:title="@string/show_film" />
     <item
-        android:id="@+id/createFood"
+        android:id="@+id/createFilm"
         android:enabled="true"
         android:icon="@drawable/ic_baseline_add_box_24"
-        android:title="@string/create_data_food" />
+        android:title="@string/create_film" />
 </menu>
