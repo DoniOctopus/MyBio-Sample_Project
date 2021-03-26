@@ -41,5 +41,9 @@ class FilmDaoTest : BaseTest() {
             Truth.assertThat(actualResult.filmTitle).isEqualTo("Dummy Film")
         }
     }
+
+    override fun isMockServerEnabled() = false
+
+    override fun isMockDatabaseEnabled() = true
 }
 

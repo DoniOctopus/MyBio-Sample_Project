@@ -1,0 +1,12 @@
+{
+  "status": "ok",
+  "message": "",
+  "results": {
+    "id": "123",
+    "originalTitle": "Dummy Original Title",
+    "title": "Dummy Title",
+    "duration": "0 minutes",
+    "imageUrl": "",
+    "synopsis": "It's Dummy Film"
+  }
+}
